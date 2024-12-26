@@ -1,3 +1,4 @@
+import Footer from "./footer";
 import HeroSection from "./hero";
 import Projects from "./projects";
 import TechStack from "./techstack";
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <TechStack  />
       <Projects />
+      <Footer />
 
     </div></>
   )
