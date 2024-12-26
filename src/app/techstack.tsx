@@ -1,7 +1,5 @@
 const tech = [
-
     // programming languages
-
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
@@ -36,21 +34,20 @@ const tech = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg",
-     
 ]
 
 const TechStack = () => {
     return (
         <div className="pt-10">
-            <h1 className="font-semibold text-lg">Tech Stack that I used:</h1>
-            <div className="grid grid-cols-4 gap-4 pt-5">
+            <h1 className="font-semibold text-lg">Tech Stack that I use</h1>
+            <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-6 pt-5">
                 {tech.map((item, index) => (
                     <img
                         key={index}
                         src={item}
                         alt="tech"
-                        className="tech-logo grayscale hover:grayscale-0"
-                        style={{ width: '50px', height: '50px' }}
+                        className="tech-logo grayscale hover:grayscale-0 "
+                        style={{ width: '45px', height: '45px' }}
                     />
                 ))}
             </div>
