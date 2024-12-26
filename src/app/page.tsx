@@ -6,13 +6,12 @@ import TechStack from "./techstack";
 export default function Home() {
   return (
     <>
-    <div className="justify-center quicksand pt-14 mx-[30%]">
-      
-      <HeroSection />
-      <TechStack  />
-      <Projects />
-      <Footer />
-
-    </div></>
-  )
+      <div className="quicksand pt-14 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <HeroSection />
+        <TechStack />
+        <Projects />
+        <Footer />
+      </div>
+    </>
+  );
 }
