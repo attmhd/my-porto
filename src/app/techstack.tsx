@@ -39,7 +39,7 @@ const tech = [
 const TechStack = () => {
     return (
         <div className="pt-10">
-            <h1 className="font-semibold text-lg">Tech Stack that I use</h1>
+            <h1 className="font-semibold text-lg">Technologies I work with</h1>
             <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-6 pt-5">
                 {tech.map((item, index) => (
                     <img

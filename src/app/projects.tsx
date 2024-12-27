@@ -71,7 +71,7 @@ const Projects: React.FC = () => {
   return (
     <div className="pt-20">
       <h1 className="font-semibold text-lg">
-        Here are some of the projects that I have worked on
+        Here are some of the projects that I have built
       </h1>
       {/* Grid container for two columns */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-5">

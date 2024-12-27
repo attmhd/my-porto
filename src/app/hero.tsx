@@ -5,10 +5,8 @@ const HeroSection = () => {
             <p className="text-lg">Hello, everyone!</p>
             <br />
             <p className="text-lg text-justify">
-                I'm a third-year student passionate about machine learning, back-end development, and DevOps. I'm eager to apply my academic knowledge in real-world projects to create impactful, scalable, and efficient systems. My focus is on developing solutions that are not only technically robust but also align with business goals.
-                <br />
-                <br />
-                Through my coursework and hands-on projects, I’ve gained experience in building data-driven models, designing back-end architectures, and implementing DevOps practices to optimize workflows. I approach each project with a problem-solving mindset, striving to deliver secure, scalable, and high-performance solutions. Eager to learn and grow, I look forward to contributing to a team where I can continue to develop my skills and make a meaningful impact.
+            Welcome to my online space where I showcase my journey and share insights from my experience in software and data development. As a third-year student, I’m passionate about <b> machine learning</b>, <b>back-end</b> development, and <b>DevOps</b>. I specialize in creating scalable, efficient systems that meet business needs. With practical experience in building data models, designing back-end architectures, and implementing DevOps practices, I'm excited to continue learning and contribute to impactful projects.
+               
             </p>
         </section>
     );
